@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Listas en HTML</title>
+    <style>
+        body {
+            background-color: #808080
+            color: #000000
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .example {
+            background-color: #b0b0b0;            padding: 10px;
+            margin: 10px 0;
+            font-family: "Courier New", monospace;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #000000;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <h1>Hipervínculos en HTML</h1>
+
+    <p>Los hipervínculos permiten a los usuarios navegar entre páginas web, documentos, y otros recursos. A continuación, se presentan los diferentes tipos de hipervínculos que se pueden utilizar en HTML:</p>
+
+    <h2>Hipervínculo a Otra Página Web</h2>
+    <p>El tipo más común de hipervínculo es el que lleva a otra página web. Se utiliza el elemento <code>&lt;a&gt;</code> con el atributo <code>href</code>:</p>
+    <div class="example">
+        <p><a href="https://www.google.com" target="_blank">Visitar Google</a></p>
+    </div>
+
+    <h2>Hipervínculo a un Correo Electrónico</h2>
+    <p>Se puede crear un enlace que permita enviar un correo electrónico utilizando el prefijo <code>mailto:</code> en el atributo <code>href</code>:</p>
+    <div class="example">
+        <p><a href="mailto:ejemplo@correo.com">Enviar correo a ejemplo@correo.com</a></p>
+    </div>
+
+    <h2>Hipervínculo a un Número de Teléfono</h2>
+    <p>Para enlazar a un número de teléfono, se utiliza el prefijo <code>tel:</code> en el atributo <code>href</code>:</p>
+    <div class="example">
+        <p><a href="tel:+1234567890">Llamar al +1234567890</a></p>
+    </div>
+
+    <h2>Hipervínculo a un Archivo</h2>
+    <p>Los enlaces también se pueden utilizar para descargar archivos. Simplemente se especifica la URL del archivo en el atributo <code>href</code>:</p>
+    <div class="example">
+        <p><a href="documento.pdf" download>Descargar archivo PDF</a></p>
+    </div>
+
+    <h2>Hipervínculo a una Parte Específica de la Misma Página</h2>
+    <p>Es posible crear enlaces que lleven a una parte específica de la misma página utilizando anclas. Se define una ancla con el atributo <code>id</code> y luego se enlaza a ella con el símbolo <code>#</code>:</p>
+    <div class="example">
+        <p><a href="#seccion2">Ir a la Sección 2</a></p>
+        <p><a id="seccion2">Esta es la Sección 2.</a></p>
+    </div>
+
+    <h2>Hipervínculo con Texto de Título</h2>
+    <p>Se puede añadir un texto de título a un hipervínculo que aparece al pasar el cursor sobre el enlace. Esto se hace utilizando el atributo <code>title</code>:</p>
+    <div class="example">
+        <p><a href="https://www.wikipedia.org" title="Visitar Wikipedia">Visitar Wikipedia</a></p>
+    </div>
+
+    <h2>Hipervínculo de Imagen</h2>
+    <p>Las imágenes también pueden ser hipervínculos. Para esto, se coloca una etiqueta <code>&lt;img&gt;</code> dentro de una etiqueta <code>&lt;a&gt;</code>:</p>
+    <div class="example">
+        <a href="https://www.wikipedia.org">
+            <img src="img1.jpeg" alt="img1.jpeg">
+        </a>
+    </div>
+<h2><a href="https://elmaistrodeobra.github.io/Txt">TEXTO<a> </h2>
+</body>
+</html>
